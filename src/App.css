@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Grand+Hotel&family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: 788px;
+  }
+
+  .bottom{
+    padding: 20px;
+  }
+
+.left {
+  position: fixed;
+  float: left;
+  width: 482px;
+  height: 1117px;
+  background-color: #102766;
+  text-align: center;
+  justify-content: center;
+  }
+
+  .noTask{
+    position: absolute;
+    width: 250px;
+    height: 36px;
+    left: 529px;
+    top: 150px;
+  }
+
+  h1{
+    position: absolute;
+    width: 188px;
+    height: 36px;
+    left: 530px;
+    top: 71px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .total{
+    position: absolute;
+    width: 117px;
+    height: 24px;
+    left: 1620px;
+    top: 77px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343434;
+  }
+
+  h4{
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .form {
+    background-color: white;
+    width: 343px;
+    height: 568px;
+    margin-top: 200px;
+    margin-left: 70px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.salvar{
+  width: 287px;
+  height: 52px;
+  background: #E84118;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  transform: 1s;
+}
+
+.salvar:hover{
+  background-color: #ff3502;
+  transition: 0.3s;
+}
+
+.right{
+margin-left: 550px;
+}
+
+ul{
+  list-style-type: none;
+  margin-left: -60px;
+  display: grid;
+  gap: 20px;
+  margin-top: 120px;
+}
+
+.item{
+  box-sizing: border-box;
+
+  width: 1151px;
+  height: 110px;
+  left: 529px;
+  top: 200px;
+
+  background: #FFFFFF;
+  border: 1px solid #C7C4C4;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+#titulo{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#categoria{
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+#descricao{
+  margin-left: 10px;
+}
+
+#data{
+
+position: relative;
+width: 112px;
+height: 30px;
+left: 1030px;
+top: -50px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 30px;
+
+color: #343434;
+}
+
+#descricao{
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+#excluir{
+  width: 20px;
+  position: absolute;
+  margin-left: 1070px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+#excluir:hover{
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+#editar:hover{
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+#editar{
+  width: 20px;
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
